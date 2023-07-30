@@ -1,0 +1,255 @@
+.app-container {
+  padding: 20px;
+}
+
+.banners-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.restaurant-poster {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px; /* Add right margin to create spacing between posters */
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  text-align: left;
+  width: 300px;
+}
+
+/* To clear the right margin of the last poster in a row */
+.restaurant-poster:last-child {
+  margin-right: 0;
+}
+
+.restaurant-poster:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.offers {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.header-nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Style the navigation links (buttons) */
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav li {
+  margin: 0 10px;
+}
+
+.header-nav li a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.header-nav li a:hover {
+  background-color: #ddd;
+}
+
+.banner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner-container img {
+  width: 100%;
+  max-width: 500px; /* Adjust the max-width based on your design preference */
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.banner-container p {
+  text-align: center;
+}
+.banner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner-item {
+  width: 300px; /* Adjust the width based on your design preference */
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.banner-item img {
+  width: 100%;
+  height: 200px; /* Adjust the height based on your design preference */
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.banner-item p {
+  padding: 10px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 0 0 8px 8px;
+}
+
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the landing page container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the banners */
+.banner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner-item {
+  width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.banner-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.banner-item p {
+  padding: 10px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Style the welcome message and other headings */
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style the restaurant details section */
+.restaurant-details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-details h2 {
+  color: #e17055;
+}
+
+.restaurant-details h3 {
+  color: #2d98da;
+}
+
+/* Style the content and CTA section */
+.content-cta {
+  margin-top: 30px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Style the buttons */
+.button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style links */
+a {
+  color: #2d98da;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Styles for the header */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the heading inside the header */
+.header h1 {
+  margin: 0;
+}
+
+/* Style for the subheading inside the header */
+.header p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+/* Styles for the individual banner */
+.banner {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.banner:hover {
+  transform: scale(1.1);
+}
+
+/* Styles for the banner caption */
+.banner-caption {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
